@@ -1,5 +1,5 @@
 import React from "react";
-import { TERRAIN_TYPES, PATH_COLORS, SEA_COLOR } from "@/lib/blockTypes";
+import { TERRAIN_TYPES, PATH_COLORS, SEA_COLOR } from "./lib/blockTypes";
 import { Check } from "lucide-react";
 
 function TerrainRow({ terrain, isSelected, onClick, showSwatch, swatchColor, swatchLabel }) {

@@ -1,13 +1,13 @@
 import React, { useState, useCallback, useRef } from "react";
-import { generateIsland, getIslandSize } from "@/lib/islandGenerator";
-import BlockPalette from "@/components/island/BlockPalette";
-import BuildingControls from "@/components/island/BuildingControls";
-import IslandCanvas from "@/components/island/IslandCanvas";
-import IslandControls from "@/components/island/IslandControls";
-import IslandHeader from "@/components/island/IslandHeader";
-import IslandLegend from "@/components/island/IslandLegend";
-import IslandGallery from "@/components/island/IslandGallery";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { generateIsland, getIslandSize } from "./lib/islandGenerator";
+import BlockPalette from "./components/island/BlockPalette";
+import BuildingControls from "./components/island/BuildingControls";
+import IslandCanvas from "./components/island/IslandCanvas";
+import IslandControls from "./components/island/IslandControls";
+import IslandHeader from "./components/island/IslandHeader";
+import IslandLegend from "./components/island/IslandLegend";
+import IslandGallery from "./components/island/IslandGallery";
+import { ScrollArea } from "./components/ui/scroll-area";
 import { motion } from "framer-motion";
 
 export default function TOMOisland() {

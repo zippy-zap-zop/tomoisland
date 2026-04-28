@@ -1,6 +1,6 @@
 import React from "react";
 import { TreePalm } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./components/ui/button";
 
 export default function IslandHeader() {
   return (

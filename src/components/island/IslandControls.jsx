@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Sparkles, Download, RotateCcw, Search, Copy } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./components/ui/button";
 
 export default function IslandControls({ onGenerate, onDownload, onReset, islandData, seed }) {
   const [seedInput, setSeedInput] = useState("");

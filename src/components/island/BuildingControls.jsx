@@ -1,7 +1,7 @@
 import React from "react";
 import { Minus, Plus } from "lucide-react";
-import { HOUSE_COLOR, SHOP_COLOR, RESTAURANT_COLOR, FERRIS_COLOR, FOUNTAIN_COLOR } from "@/lib/blockTypes";
-import { Slider } from "@/components/ui/slider";
+import { HOUSE_COLOR, SHOP_COLOR, RESTAURANT_COLOR, FERRIS_COLOR, FOUNTAIN_COLOR } from "./lib/blockTypes";
+import { Slider } from "./components/ui/slider";
 
 function Counter({ label, value, onChange, color, size, max = 30 }) {
   return (

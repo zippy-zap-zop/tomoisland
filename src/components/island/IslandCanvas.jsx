@@ -1,9 +1,9 @@
 import React, { useRef, useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./components/ui/button";
 import {
   BLOCK_TYPES, SEA_COLOR,
   HOUSE_COLOR, SHOP_COLOR, RESTAURANT_COLOR, FERRIS_COLOR, FOUNTAIN_COLOR
-} from "@/lib/blockTypes";
+} from "./lib/blockTypes";
 
 const CELL = 5;
 const RULER = 20;

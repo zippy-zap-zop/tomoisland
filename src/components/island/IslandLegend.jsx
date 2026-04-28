@@ -1,5 +1,5 @@
 import React from "react";
-import { BLOCK_TYPES, HOUSE_COLOR, SHOP_COLOR, RESTAURANT_COLOR, FERRIS_COLOR, FOUNTAIN_COLOR, SEA_COLOR } from "@/lib/blockTypes";
+import { BLOCK_TYPES, HOUSE_COLOR, SHOP_COLOR, RESTAURANT_COLOR, FERRIS_COLOR, FOUNTAIN_COLOR, SEA_COLOR } from "./lib/blockTypes";
 
 export default function IslandLegend({ terrainIds, pathId, numHouses, onHighlight, highlightId }) {
   if (!terrainIds || terrainIds.length === 0) return null;
