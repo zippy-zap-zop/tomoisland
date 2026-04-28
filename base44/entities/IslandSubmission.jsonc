@@ -1,0 +1,26 @@
+{
+  "name": "IslandSubmission",
+  "type": "object",
+  "properties": {
+    "image_url": {
+      "type": "string",
+      "description": "URL of the uploaded island map image"
+    },
+    "description": {
+      "type": "string",
+      "description": "User's description of their island"
+    },
+    "seed": {
+      "type": "string",
+      "description": "The seed used to generate the island"
+    },
+    "likes": {
+      "type": "integer",
+      "default": 0,
+      "description": "Number of likes"
+    }
+  },
+  "required": [
+    "image_url"
+  ]
+}
