@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef } from "react";
-import { generateIsland, getIslandSize } from "./lib/islandGenerator";
+import { generateIsland, getIslandSize } from "../lib/islandGenerator";
 import BlockPalette from "./components/island/BlockPalette";
 import BuildingControls from "./components/island/BuildingControls";
 import IslandCanvas from "./components/island/IslandCanvas";
